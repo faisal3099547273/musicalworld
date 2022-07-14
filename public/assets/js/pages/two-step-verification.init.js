@@ -1,0 +1,1 @@
+!function(){var i=1;$(".two-step").keyup((function(t){0==i&&(i=1),8===t.keyCode?(5==i&&(i=3),$("#digit"+i+"-input").focus(),i--):0<i&&(i++,$("#digit"+i+"-input").focus())}))}();
