@@ -29,11 +29,11 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-        if (view()->exists($request->path())) {
+        // if () {
            //  return view($request->path());
             return $this->root();
-        }
-        return abort(404);
+       /// }
+      //  return abort(404);
        
     }
 
