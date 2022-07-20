@@ -58,7 +58,7 @@
                 </ul>
 
                 <div class="my-2 ms-lg-2">
-                    <a href="{{route('login')}}" class="btn btn-outline-success w-xs">Sign in</a>
+                    <a href="{{ route('login') }}" class="btn btn-outline-success w-xs">Sign in</a>
                 </div>
             </div>
         </div>
@@ -71,7 +71,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-5">
                     <div class="text-white-50">
-                        <h1 class="text-white fw-semibold mb-3 hero-title">Musical world is available for all general public people from all across the country</h1>
+                        <h1 class="text-white fw-semibold mb-3 hero-title">Musical world is available for all general
+                            public people from all across the country</h1>
                         <p class="font-size-14">It will be as simple as occidental in fact to an English person, it will
                             seem like simplified as a skeptical Cambridge</p>
 
@@ -83,12 +84,13 @@
                 </div>
                 <div class="col-lg-5 col-md-8 col-sm-10 ms-lg-auto">
                     <div>
-                                    <img src="{{ URL::asset('images/worl.png') }}" alt="" class="rounded" style="width:100%;color:blue;">
-                                </div>
+                        <img src="{{ URL::asset('images/worl.png') }}" alt="" class="rounded"
+                            style="width:100%;color:blue;">
+                    </div>
+                </div>
+                <!-- end row -->
             </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
+            <!-- end container -->
     </section>
     <!-- hero section end -->
 
@@ -103,15 +105,16 @@
                                 <div class="d-flex">
                                     <div class="flex-shrink-0 me-3">
                                         <div class="avatar-xs">
-                                            <span class="avatar-title rounded-circle bg-warning bg-soft text-warning font-size-18">
+                                            <span
+                                                class="avatar-title rounded-circle bg-warning bg-soft text-warning font-size-18">
                                                 <i class="fas fa-user"></i>
                                             </span>
                                         </div>
                                     </div>
                                     <div class="flex-grow-1">
                                         <p class="text-muted">@lang('Singers')</p>
-                                        <h5>{{$total_singer}}</h5>
-                                        
+                                        <h5>{{ $total_singer }}</h5>
+
                                     </div>
                                 </div>
                             </div>
@@ -123,14 +126,15 @@
                                 <div class="d-flex">
                                     <div class="flex-shrink-0 me-3">
                                         <div class="avatar-xs">
-                                            <span class="avatar-title rounded-circle bg-primary bg-soft text-primary font-size-18">
+                                            <span
+                                                class="avatar-title rounded-circle bg-primary bg-soft text-primary font-size-18">
                                                 <i class="fas fa-cubes"></i>
                                             </span>
                                         </div>
                                     </div>
                                     <div class="flex-grow-1">
                                         <p class="text-muted">@lang('Companies')</p>
-                                        <h5>{{$total_companies}}</h5>
+                                        <h5>{{ $total_companies }}</h5>
                                     </div>
                                 </div>
                             </div>
@@ -142,15 +146,16 @@
                                 <div class="d-flex">
                                     <div class="flex-shrink-0 me-3">
                                         <div class="avatar-xs">
-                                            <span class="avatar-title rounded-circle bg-info bg-soft text-info font-size-18">
+                                            <span
+                                                class="avatar-title rounded-circle bg-info bg-soft text-info font-size-18">
                                                 <i class="fas fa-diagnoses"></i>
                                             </span>
                                         </div>
                                     </div>
                                     <div class="flex-grow-1">
                                         <p class="text-muted">@lang('Competitions')</p>
-                                        <h5>{{$tottal_competition}}</h5>
-                                       
+                                        <h5>{{ $tottal_competition }}</h5>
+
                                     </div>
                                 </div>
                             </div>
@@ -206,21 +211,22 @@
 
                 <div class="col-lg-6 ms-auto">
                     <div class="mt-4 mt-lg-0">
-                   
-                        <img src="{{ URL::asset('/assets/images/crypto/features-img/img-2.png') }}" alt="" class="img-fluid mx-auto d-block">
+
+                        <img src="{{ URL::asset('/assets/images/crypto/features-img/img-2.png') }}" alt=""
+                            class="img-fluid mx-auto d-block">
                     </div>
-                    
-                        </div>
-                    </div>
+
                 </div>
             </div>
-            <!-- end row -->
+        </div>
+        </div>
+        <!-- end row -->
 
-            <hr class="my-5">
+        <hr class="my-5">
 
-            <div class="row">
-                <div class="col-lg-12">
-                    {{-- <div class="owl-carousel owl-theme clients-carousel" id="clients-carousel" dir="ltr">
+        <div class="row">
+            <div class="col-lg-12">
+                {{-- <div class="owl-carousel owl-theme clients-carousel" id="clients-carousel" dir="ltr">
                         <div class="item">
                             <div class="client-images">
                                 <img src="{{ URL::asset('/assets/images/clients/1.png') }}" alt="client-img" class="mx-auto img-fluid d-block">
@@ -251,10 +257,10 @@
                                 <img src="{{ URL::asset('/assets/images/clients/6.png') }}" alt="client-img" class="mx-auto img-fluid d-block">
                             </div>
                         </div> --}}
-                    </div>
-                </div>
             </div>
-            <!-- end row -->
+        </div>
+        </div>
+        <!-- end row -->
         </div>
         <!-- end container -->
     </section>
@@ -276,7 +282,8 @@
             <div class="row align-items-center pt-4">
                 <div class="col-md-6 col-sm-8">
                     <div>
-                        <img src="{{ URL::asset('/assets/images/crypto/features-img/img-1.png') }}" alt="" class="img-fluid mx-auto d-block">
+                        <img src="{{ URL::asset('/assets/images/crypto/features-img/img-1.png') }}" alt=""
+                            class="img-fluid mx-auto d-block">
                     </div>
                 </div>
                 <div class="col-md-5 ms-auto">
@@ -289,7 +296,8 @@
                             more simple and regular than of the individual will be more simple and regular than the
                             existing.</p>
                         <div class="text-muted mt-4">
-                            <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Donec pede justo vel
+                            <p class="mb-2"><i class="mdi mdi-circle-medium text-success me-1"></i>Donec pede justo
+                                vel
                                 aliquet</p>
                             <p><i class="mdi mdi-circle-medium text-success me-1"></i>Aenean et nisl sagittis</p>
                         </div>
@@ -320,8 +328,8 @@
                     </div>
                 </div> --}}
 
-            </div>
-            <!-- end row -->
+        </div>
+        <!-- end row -->
         </div>
         <!-- end container -->
     </section>
@@ -372,7 +380,8 @@
                                     </div>
 
                                     <div class="mt-3 px-3">
-                                        <p class="text-muted">To an English person, it will seem like simplified English
+                                        <p class="text-muted">To an English person, it will seem like simplified
+                                            English
                                             existence.</p>
                                     </div>
                                 </div>
@@ -406,7 +415,8 @@
                                     </div>
 
                                     <div class="mt-3 px-3">
-                                        <p class="text-muted">New common language will be more simple than existing.</p>
+                                        <p class="text-muted">New common language will be more simple than existing.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -439,7 +449,8 @@
                                     </div>
 
                                     <div class="mt-3 px-3">
-                                        <p class="text-muted">To an English person, it will seem like simplified English
+                                        <p class="text-muted">To an English person, it will seem like simplified
+                                            English
                                             existence.</p>
                                     </div>
                                 </div>
@@ -474,7 +485,8 @@
                         <div class="card text-center team-box">
                             <div class="card-body">
                                 <div>
-                                    <img src="{{ URL::asset('/assets/images/users/avatar-2.jpg') }}" alt="" class="rounded">
+                                    <img src="{{ URL::asset('/assets/images/users/avatar-2.jpg') }}" alt=""
+                                        class="rounded">
                                 </div>
 
                                 <div class="mt-3">
@@ -485,17 +497,20 @@
                             <div class="card-footer bg-transparent border-top">
                                 <div class="d-flex mb-0 team-social-links" id="tooltip-container">
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container" title="Facebook">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container" title="Facebook">
                                             <i class="mdi mdi-facebook"></i>
                                         </a>
                                     </div>
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container" title="Linkedin">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container" title="Linkedin">
                                             <i class="mdi mdi-linkedin"></i>
                                         </a>
                                     </div>
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container" title="Google">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container" title="Google">
                                             <i class="mdi mdi-google"></i>
                                         </a>
                                     </div>
@@ -507,7 +522,8 @@
                         <div class="card text-center team-box">
                             <div class="card-body">
                                 <div>
-                                    <img src="{{ URL::asset('/assets/images/users/avatar-3.jpg') }}" alt="" class="rounded">
+                                    <img src="{{ URL::asset('/assets/images/users/avatar-3.jpg') }}" alt=""
+                                        class="rounded">
                                 </div>
 
                                 <div class="mt-3">
@@ -518,17 +534,20 @@
                             <div class="card-footer bg-transparent border-top">
                                 <div class="d-flex mb-0 team-social-links" id="tooltip-container2">
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container2" title="Facebook">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container2" title="Facebook">
                                             <i class="mdi mdi-facebook"></i>
                                         </a>
                                     </div>
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container2" title="Linkedin">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container2" title="Linkedin">
                                             <i class="mdi mdi-linkedin"></i>
                                         </a>
                                     </div>
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container2" title="Google">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container2" title="Google">
                                             <i class="mdi mdi-google"></i>
                                         </a>
                                     </div>
@@ -540,7 +559,8 @@
                         <div class="card text-center team-box">
                             <div class="card-body">
                                 <div>
-                                    <img src="{{ URL::asset('/assets/images/users/avatar-8.jpg') }}" alt="" class="rounded">
+                                    <img src="{{ URL::asset('/assets/images/users/avatar-8.jpg') }}" alt=""
+                                        class="rounded">
                                 </div>
                                 <div class="mt-3">
                                     <h5>Vickie Sample</h5>
@@ -550,17 +570,20 @@
                             <div class="card-footer bg-transparent border-top">
                                 <div class="d-flex mb-0 team-social-links" id="tooltip-container3">
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container3" title="Facebook">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container3" title="Facebook">
                                             <i class="mdi mdi-facebook"></i>
                                         </a>
                                     </div>
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container3" title="Linkedin">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container3" title="Linkedin">
                                             <i class="mdi mdi-linkedin"></i>
                                         </a>
                                     </div>
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container3" title="Google">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container3" title="Google">
                                             <i class="mdi mdi-google"></i>
                                         </a>
                                     </div>
@@ -572,7 +595,8 @@
                         <div class="card text-center team-box">
                             <div class="card-body">
                                 <div>
-                                    <img src="{{ URL::asset('/assets/images/users/avatar-5.jpg') }}" alt="" class="rounded">
+                                    <img src="{{ URL::asset('/assets/images/users/avatar-5.jpg') }}" alt=""
+                                        class="rounded">
                                 </div>
 
                                 <div class="mt-3">
@@ -583,17 +607,20 @@
                             <div class="card-footer bg-transparent border-top">
                                 <div class="d-flex mb-0 team-social-links" id="tooltip-container4">
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container4" title="Facebook">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container4" title="Facebook">
                                             <i class="mdi mdi-facebook"></i>
                                         </a>
                                     </div>
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container4" title="Linkedin">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container4" title="Linkedin">
                                             <i class="mdi mdi-linkedin"></i>
                                         </a>
                                     </div>
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container4" title="Google">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container4" title="Google">
                                             <i class="mdi mdi-google"></i>
                                         </a>
                                     </div>
@@ -606,7 +633,8 @@
                         <div class="card text-center team-box">
                             <div class="card-body">
                                 <div>
-                                    <img src="{{ URL::asset('/assets/images/users/avatar-1.jpg') }}" alt="" class="rounded">
+                                    <img src="{{ URL::asset('/assets/images/users/avatar-1.jpg') }}" alt=""
+                                        class="rounded">
                                 </div>
 
                                 <div class="mt-3">
@@ -617,17 +645,20 @@
                             <div class="card-footer bg-transparent border-top">
                                 <div class="d-flex mb-0 team-social-links" id="tooltip-container5">
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container5" title="Facebook">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container5" title="Facebook">
                                             <i class="mdi mdi-facebook"></i>
                                         </a>
                                     </div>
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container5" title="Linkedin">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container5" title="Linkedin">
                                             <i class="mdi mdi-linkedin"></i>
                                         </a>
                                     </div>
                                     <div class="flex-fill">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-container="#tooltip-container5" title="Google">
+                                        <a href="#" data-bs-toggle="tooltip"
+                                            data-bs-container="#tooltip-container5" title="Google">
                                             <i class="mdi mdi-google"></i>
                                         </a>
                                     </div>
@@ -660,7 +691,8 @@
                 <div class="col-xl-4 col-sm-6">
                     <div class="blog-box mb-4 mb-xl-0">
                         <div class="position-relative">
-                            <img src="{{ URL::asset('/assets/images/crypto/blog/img-1.jpg') }}" alt="" class="rounded img-fluid mx-auto d-block">
+                            <img src="{{ URL::asset('/assets/images/crypto/blog/img-1.jpg') }}" alt=""
+                                class="rounded img-fluid mx-auto d-block">
                             <div class="badge bg-success blog-badge font-size-11">Cryptocurrency</div>
                         </div>
 
@@ -680,7 +712,8 @@
                     <div class="blog-box mb-4 mb-xl-0">
 
                         <div class="position-relative">
-                            <img src="{{ URL::asset('/assets/images/crypto/blog/img-2.jpg') }}" alt="" class="rounded img-fluid mx-auto d-block">
+                            <img src="{{ URL::asset('/assets/images/crypto/blog/img-2.jpg') }}" alt=""
+                                class="rounded img-fluid mx-auto d-block">
                             <div class="badge bg-success blog-badge font-size-11">Cryptocurrency</div>
                         </div>
 
@@ -699,7 +732,8 @@
                 <div class="col-xl-4 col-sm-6">
                     <div class="blog-box mb-4 mb-xl-0">
                         <div class="position-relative">
-                            <img src="{{ URL::asset('/assets/images/crypto/blog/img-3.jpg') }}" alt="" class="rounded img-fluid mx-auto d-block">
+                            <img src="{{ URL::asset('/assets/images/crypto/blog/img-3.jpg') }}" alt=""
+                                class="rounded img-fluid mx-auto d-block">
                             <div class="badge bg-success blog-badge font-size-11">Cryptocurrency</div>
                         </div>
 
@@ -740,15 +774,18 @@
                         <div class="row">
                             <div class="col-lg-2 col-sm-4">
                                 <div class="nav flex-column nav-pills" role="tablist">
-                                    <a class="nav-link active" id="v-pills-gen-ques-tab" data-bs-toggle="pill" href="#v-pills-gen-ques" role="tab">
+                                    <a class="nav-link active" id="v-pills-gen-ques-tab" data-bs-toggle="pill"
+                                        href="#v-pills-gen-ques" role="tab">
                                         <i class="bx bx-help-circle nav-icon d-block mb-2"></i>
                                         <p class="fw-bold mb-0">General Questions</p>
                                     </a>
-                                    <a class="nav-link" id="v-pills-token-sale-tab" data-bs-toggle="pill" href="#v-pills-token-sale" role="tab">
+                                    <a class="nav-link" id="v-pills-token-sale-tab" data-bs-toggle="pill"
+                                        href="#v-pills-token-sale" role="tab">
                                         <i class="bx bx-receipt nav-icon d-block mb-2"></i>
                                         <p class="fw-bold mb-0">Token sale</p>
                                     </a>
-                                    <a class="nav-link" id="v-pills-roadmap-tab" data-bs-toggle="pill" href="#v-pills-roadmap" role="tab">
+                                    <a class="nav-link" id="v-pills-roadmap-tab" data-bs-toggle="pill"
+                                        href="#v-pills-roadmap" role="tab">
                                         <i class="bx bx-timer d-block nav-icon mb-2"></i>
                                         <p class="fw-bold mb-0">Roadmap</p>
                                     </a>
@@ -758,22 +795,27 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="tab-content">
-                                            <div class="tab-pane fade show active" id="v-pills-gen-ques" role="tabpanel">
+                                            <div class="tab-pane fade show active" id="v-pills-gen-ques"
+                                                role="tabpanel">
                                                 <h4 class="card-title mb-4">General Questions</h4>
 
                                                 <div>
                                                     <div id="gen-ques-accordion" class="accordion custom-accordion">
                                                         <div class="mb-3">
-                                                            <a href="#general-collapseOne" class="accordion-list" data-bs-toggle="collapse" aria-expanded="true" aria-controls="general-collapseOne">
+                                                            <a href="#general-collapseOne" class="accordion-list"
+                                                                data-bs-toggle="collapse" aria-expanded="true"
+                                                                aria-controls="general-collapseOne">
 
                                                                 <div>What is Lorem Ipsum ?</div>
                                                                 <i class="mdi mdi-minus accor-plus-icon"></i>
 
                                                             </a>
 
-                                                            <div id="general-collapseOne" class="collapse show" data-bs-parent="#gen-ques-accordion">
+                                                            <div id="general-collapseOne" class="collapse show"
+                                                                data-bs-parent="#gen-ques-accordion">
                                                                 <div class="card-body">
-                                                                    <p class="mb-0">Everyone realizes why a new common
+                                                                    <p class="mb-0">Everyone realizes why a new
+                                                                        common
                                                                         language would be desirable: one could refuse to
                                                                         pay expensive translators. To achieve this, it
                                                                         would be necessary to have uniform grammar,
@@ -783,13 +825,18 @@
                                                         </div>
 
                                                         <div class="mb-3">
-                                                            <a href="#general-collapseTwo" class="accordion-list collapsed" data-bs-toggle="collapse" aria-expanded="false" aria-controls="general-collapseTwo">
+                                                            <a href="#general-collapseTwo"
+                                                                class="accordion-list collapsed"
+                                                                data-bs-toggle="collapse" aria-expanded="false"
+                                                                aria-controls="general-collapseTwo">
                                                                 <div>Why do we use it ?</div>
                                                                 <i class="mdi mdi-minus accor-plus-icon"></i>
                                                             </a>
-                                                            <div id="general-collapseTwo" class="collapse" data-bs-parent="#gen-ques-accordion">
+                                                            <div id="general-collapseTwo" class="collapse"
+                                                                data-bs-parent="#gen-ques-accordion">
                                                                 <div class="card-body">
-                                                                    <p class="mb-0">If several languages coalesce, the
+                                                                    <p class="mb-0">If several languages coalesce,
+                                                                        the
                                                                         grammar of the resulting language is more simple
                                                                         and regular than that of the individual
                                                                         languages. The new common language will be more
@@ -800,13 +847,18 @@
                                                         </div>
 
                                                         <div class="mb-3">
-                                                            <a href="#general-collapseThree" class="accordion-list collapsed" data-bs-toggle="collapse" aria-expanded="false" aria-controls="general-collapseThree">
+                                                            <a href="#general-collapseThree"
+                                                                class="accordion-list collapsed"
+                                                                data-bs-toggle="collapse" aria-expanded="false"
+                                                                aria-controls="general-collapseThree">
                                                                 <div>Where does it come from ?</div>
                                                                 <i class="mdi mdi-minus accor-plus-icon"></i>
                                                             </a>
-                                                            <div id="general-collapseThree" class="collapse" data-bs-parent="#gen-ques-accordion">
+                                                            <div id="general-collapseThree" class="collapse"
+                                                                data-bs-parent="#gen-ques-accordion">
                                                                 <div class="card-body">
-                                                                    <p class="mb-0">It will be as simple as Occidental;
+                                                                    <p class="mb-0">It will be as simple as
+                                                                        Occidental;
                                                                         in fact, it will be Occidental. To an English
                                                                         person, it will seem like simplified English, as
                                                                         a skeptical Cambridge friend of mine told me
@@ -816,13 +868,18 @@
                                                         </div>
 
                                                         <div>
-                                                            <a href="#general-collapseFour" class="accordion-list collapsed" data-bs-toggle="collapse" aria-expanded="false" aria-controls="general-collapseFour">
+                                                            <a href="#general-collapseFour"
+                                                                class="accordion-list collapsed"
+                                                                data-bs-toggle="collapse" aria-expanded="false"
+                                                                aria-controls="general-collapseFour">
                                                                 <div>Where can I get some ?</div>
                                                                 <i class="mdi mdi-minus accor-plus-icon"></i>
                                                             </a>
-                                                            <div id="general-collapseFour" class="collapse" data-bs-parent="#gen-ques-accordion">
+                                                            <div id="general-collapseFour" class="collapse"
+                                                                data-bs-parent="#gen-ques-accordion">
                                                                 <div class="card-body">
-                                                                    <p class="mb-0">To an English person, it will seem
+                                                                    <p class="mb-0">To an English person, it will
+                                                                        seem
                                                                         like simplified English, as a skeptical
                                                                         Cambridge friend of mine told me what Occidental
                                                                         is. The European languages are members of the
@@ -841,13 +898,18 @@
                                                 <div>
                                                     <div id="token-accordion" class="accordion custom-accordion">
                                                         <div class="mb-3">
-                                                            <a href="#token-collapseOne" class="accordion-list collapsed" data-bs-toggle="collapse" aria-expanded="false" aria-controls="token-collapseOne">
+                                                            <a href="#token-collapseOne"
+                                                                class="accordion-list collapsed"
+                                                                data-bs-toggle="collapse" aria-expanded="false"
+                                                                aria-controls="token-collapseOne">
                                                                 <div>Why do we use it ?</div>
                                                                 <i class="mdi mdi-minus accor-plus-icon"></i>
                                                             </a>
-                                                            <div id="token-collapseOne" class="collapse" data-bs-parent="#token-accordion">
+                                                            <div id="token-collapseOne" class="collapse"
+                                                                data-bs-parent="#token-accordion">
                                                                 <div class="card-body">
-                                                                    <p class="mb-0">If several languages coalesce, the
+                                                                    <p class="mb-0">If several languages coalesce,
+                                                                        the
                                                                         grammar of the resulting language is more simple
                                                                         and regular than that of the individual
                                                                         languages. The new common language will be more
@@ -858,16 +920,20 @@
                                                         </div>
 
                                                         <div class="mb-3">
-                                                            <a href="#token-collapseTwo" class="accordion-list" data-bs-toggle="collapse" aria-expanded="true" aria-controls="token-collapseTwo">
+                                                            <a href="#token-collapseTwo" class="accordion-list"
+                                                                data-bs-toggle="collapse" aria-expanded="true"
+                                                                aria-controls="token-collapseTwo">
 
                                                                 <div>What is Lorem Ipsum ?</div>
                                                                 <i class="mdi mdi-minus accor-plus-icon"></i>
 
                                                             </a>
 
-                                                            <div id="token-collapseTwo" class="collapse show" data-bs-parent="#token-accordion">
+                                                            <div id="token-collapseTwo" class="collapse show"
+                                                                data-bs-parent="#token-accordion">
                                                                 <div class="card-body">
-                                                                    <p class="mb-0">Everyone realizes why a new common
+                                                                    <p class="mb-0">Everyone realizes why a new
+                                                                        common
                                                                         language would be desirable: one could refuse to
                                                                         pay expensive translators. To achieve this, it
                                                                         would be necessary to have uniform grammar,
@@ -877,13 +943,18 @@
                                                         </div>
 
                                                         <div class="mb-3">
-                                                            <a href="#token-collapseThree" class="accordion-list collapsed" data-bs-toggle="collapse" aria-expanded="false" aria-controls="token-collapseThree">
+                                                            <a href="#token-collapseThree"
+                                                                class="accordion-list collapsed"
+                                                                data-bs-toggle="collapse" aria-expanded="false"
+                                                                aria-controls="token-collapseThree">
                                                                 <div>Where can I get some ?</div>
                                                                 <i class="mdi mdi-minus accor-plus-icon"></i>
                                                             </a>
-                                                            <div id="token-collapseThree" class="collapse" data-bs-parent="#token-accordion">
+                                                            <div id="token-collapseThree" class="collapse"
+                                                                data-bs-parent="#token-accordion">
                                                                 <div class="card-body">
-                                                                    <p class="mb-0">To an English person, it will seem
+                                                                    <p class="mb-0">To an English person, it will
+                                                                        seem
                                                                         like simplified English, as a skeptical
                                                                         Cambridge friend of mine told me what Occidental
                                                                         is. The European languages are members of the
@@ -894,13 +965,18 @@
                                                         </div>
 
                                                         <div>
-                                                            <a href="#token-collapseFour" class="accordion-list collapsed" data-bs-toggle="collapse" aria-expanded="false" aria-controls="token-collapseFour">
+                                                            <a href="#token-collapseFour"
+                                                                class="accordion-list collapsed"
+                                                                data-bs-toggle="collapse" aria-expanded="false"
+                                                                aria-controls="token-collapseFour">
                                                                 <div>Where does it come from ?</div>
                                                                 <i class="mdi mdi-minus accor-plus-icon"></i>
                                                             </a>
-                                                            <div id="token-collapseFour" class="collapse" data-bs-parent="#token-accordion">
+                                                            <div id="token-collapseFour" class="collapse"
+                                                                data-bs-parent="#token-accordion">
                                                                 <div class="card-body">
-                                                                    <p class="mb-0">It will be as simple as Occidental;
+                                                                    <p class="mb-0">It will be as simple as
+                                                                        Occidental;
                                                                         in fact, it will be Occidental. To an English
                                                                         person, it will seem like simplified English, as
                                                                         a skeptical Cambridge friend of mine told me
@@ -921,7 +997,9 @@
                                                     <div id="roadmap-accordion" class="accordion custom-accordion">
 
                                                         <div class="mb-3">
-                                                            <a href="#roadmap-collapseOne" class="accordion-list" data-bs-toggle="collapse" aria-expanded="true" aria-controls="roadmap-collapseOne">
+                                                            <a href="#roadmap-collapseOne" class="accordion-list"
+                                                                data-bs-toggle="collapse" aria-expanded="true"
+                                                                aria-controls="roadmap-collapseOne">
 
 
 
@@ -930,9 +1008,11 @@
 
                                                             </a>
 
-                                                            <div id="roadmap-collapseOne" class="collapse show" data-bs-parent="#roadmap-accordion">
+                                                            <div id="roadmap-collapseOne" class="collapse show"
+                                                                data-bs-parent="#roadmap-accordion">
                                                                 <div class="card-body">
-                                                                    <p class="mb-0">Everyone realizes why a new common
+                                                                    <p class="mb-0">Everyone realizes why a new
+                                                                        common
                                                                         language would be desirable: one could refuse to
                                                                         pay expensive translators. To achieve this, it
                                                                         would be necessary to have uniform grammar,
@@ -942,13 +1022,18 @@
                                                         </div>
 
                                                         <div class="mb-3">
-                                                            <a href="#roadmap-collapseTwo" class="accordion-list collapsed" data-bs-toggle="collapse" aria-expanded="false" aria-controls="roadmap-collapseTwo">
+                                                            <a href="#roadmap-collapseTwo"
+                                                                class="accordion-list collapsed"
+                                                                data-bs-toggle="collapse" aria-expanded="false"
+                                                                aria-controls="roadmap-collapseTwo">
                                                                 <div>What is Lorem Ipsum ?</div>
                                                                 <i class="mdi mdi-minus accor-plus-icon"></i>
                                                             </a>
-                                                            <div id="roadmap-collapseTwo" class="collapse" data-bs-parent="#roadmap-accordion">
+                                                            <div id="roadmap-collapseTwo" class="collapse"
+                                                                data-bs-parent="#roadmap-accordion">
                                                                 <div class="card-body">
-                                                                    <p class="mb-0">If several languages coalesce, the
+                                                                    <p class="mb-0">If several languages coalesce,
+                                                                        the
                                                                         grammar of the resulting language is more simple
                                                                         and regular than that of the individual
                                                                         languages. The new common language will be more
@@ -961,13 +1046,18 @@
 
 
                                                         <div class="mb-3">
-                                                            <a href="#roadmap-collapseThree" class="accordion-list collapsed" data-bs-toggle="collapse" aria-expanded="false" aria-controls="roadmap-collapseThree">
+                                                            <a href="#roadmap-collapseThree"
+                                                                class="accordion-list collapsed"
+                                                                data-bs-toggle="collapse" aria-expanded="false"
+                                                                aria-controls="roadmap-collapseThree">
                                                                 <div>Why do we use it ?</div>
                                                                 <i class="mdi mdi-minus accor-plus-icon"></i>
                                                             </a>
-                                                            <div id="roadmap-collapseThree" class="collapse" data-bs-parent="#roadmap-accordion">
+                                                            <div id="roadmap-collapseThree" class="collapse"
+                                                                data-bs-parent="#roadmap-accordion">
                                                                 <div class="card-body">
-                                                                    <p class="mb-0">To an English person, it will seem
+                                                                    <p class="mb-0">To an English person, it will
+                                                                        seem
                                                                         like simplified English, as a skeptical
                                                                         Cambridge friend of mine told me what Occidental
                                                                         is. The European languages are members of the
@@ -978,13 +1068,18 @@
                                                         </div>
 
                                                         <div>
-                                                            <a href="#roadmap-collapseFour" class="accordion-list collapsed" data-bs-toggle="collapse" aria-expanded="false" aria-controls="roadmap-collapseFour">
+                                                            <a href="#roadmap-collapseFour"
+                                                                class="accordion-list collapsed"
+                                                                data-bs-toggle="collapse" aria-expanded="false"
+                                                                aria-controls="roadmap-collapseFour">
                                                                 <div>Where does it come from ?</div>
                                                                 <i class="mdi mdi-minus accor-plus-icon"></i>
                                                             </a>
-                                                            <div id="roadmap-collapseFour" class="collapse" data-bs-parent="#roadmap-accordion">
+                                                            <div id="roadmap-collapseFour" class="collapse"
+                                                                data-bs-parent="#roadmap-accordion">
                                                                 <div class="card-body">
-                                                                    <p class="mb-0">It will be as simple as Occidental;
+                                                                    <p class="mb-0">It will be as simple as
+                                                                        Occidental;
                                                                         in fact, it will be Occidental. To an English
                                                                         person, it will seem like simplified English, as
                                                                         a skeptical Cambridge friend of mine told me
@@ -1079,13 +1174,14 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="mb-4">
-                        <img src="{{ URL::asset('/assets/images/logo-light.png') }}" alt="" height="20">
+                        <img src="{{ URL::asset('/assets/images/logo-light.png') }}" alt=""
+                            height="20">
                     </div>
 
                     <p class="mb-2">
                         <script>
                             document.write(new Date().getFullYear())
-                        </script> © Skote. Design & Develop by Themesbrand
+                        </script> © Musical World
                     </p>
                     <p>It will be as simple as occidental in fact, it will be to an english person, it will seem like
                         simplified English, as a skeptical</p>
