@@ -8,13 +8,14 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ URL::asset('assets/images/favicon.ico') }}">
+    {{-- <link rel="shortcut icon" href="{{ URL::asset('assets/images/favicon.ico') }}"> --}}
     @include('musicworld.layouts.head-css')
 </head>
 
 @section('body')
+
     <body data-sidebar="dark">
-@show
+    @show
     <!-- Begin page -->
     <div id="layout-wrapper">
         @include('musicworld.layouts.topbar')
