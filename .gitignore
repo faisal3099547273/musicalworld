@@ -2,7 +2,7 @@
 /public/hot
 /public/storage
 /storage/*.key
-/theme
+/view/themes
 /vendor
 .env
 .env.backup
