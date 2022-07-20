@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
+use App\Models\Competition;
 
 class HomeController extends Controller
 {
@@ -29,14 +30,24 @@ class HomeController extends Controller
     public function index(Request $request)
     {
         if (view()->exists($request->path())) {
-            return view($request->path());
+           //  return view($request->path());
+            return $this->root();
         }
         return abort(404);
+       
     }
 
     public function root()
     {
-        return view('index');
+        $total_singer = User::where('role','singer')->count();
+        $total_company = User::where('role','company')->count();
+         $tatal_competition = Competition::where('status',1)->count();
+        return view('musicworld.panel.dashboard',[
+            'total_singer' => $total_singer,
+            'total_companies' =>$total_company,
+            'tottal_competition' => $tatal_competition,
+        ]);
+        //return view('index');
     }
 
     /*Language Translation*/

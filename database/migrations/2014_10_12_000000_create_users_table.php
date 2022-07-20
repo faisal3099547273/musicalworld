@@ -17,16 +17,29 @@ class CreateUsersTable extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('full_name');
+            $table->string('company_name')->nullable();
+            $table->string('first_name')->nullable();
+            $table->string('last_name')->nullable();
+            $table->string('company_member')->nullable();
+            $table->string('company_start_year')->nullable();
             $table->string('email')->unique();
+            $table->string('phone')->nullable();
+            $table->string('cuntry')->nullable();
+            $table->string('city')->nullable();
+            $table->string('state')->nullable();
             $table->timestamp('email_verified_at')->nullable();
+            $table->string('role');
+            $table->string('created_by')->nullable();
             $table->string('password');
+            $table->string('rest_password_code')->nullable();
+            $table->string('last_login')->nullable();
             $table->date('dob');
+            $table->string('company_logo')->nullable();
             $table->text('avatar');
             $table->rememberToken();
             $table->timestamps();
         });
-        User::create(['name' => 'admin','dob'=>'2000-10-10','email' => 'admin@themesbrand.com','password' => Hash::make('123456'),'email_verified_at'=>'2022-01-02 17:04:58','avatar' => 'images/avatar-1.jpg','created_at' => now(),]);
     }
 
     /**
